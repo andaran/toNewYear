@@ -29,9 +29,9 @@ function clock() {
 }
 
 function rgbFunc() {
-    var red = Math.random() * 255;
-    var green = Math.random() * 255;
-    var blue = Math.random() * 255;
+    var red = parseInt(Math.random() * 255);
+    var green = parseInt(Math.random() * 255);
+    var blue = parseInt(Math.random() * 255);
     var color = 'rgb(' + red + ',' + green + ',' + blue + ')';
     document.getElementById('newYear').style.color = color;
 }

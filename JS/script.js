@@ -4,7 +4,7 @@ var interval2 = setInterval(rgbFunc, 100);
 
 function clock() {
 
-    if (new Date().getDate() == 31 && new Date().getHours() == 0 && new Date().getMinutes() == 0) {
+    if (new Date().getDate() == 1 && new Date().getHours() == 0 && new Date().getMinutes() == 0) {
         flag = true;
     }
 

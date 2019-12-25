@@ -19,8 +19,8 @@ function clock() {
 
         days.innerHTML = 31 - new Date().getDate();
         hours.innerHTML = 24 - new Date().getHours();
-        minutes.innerHTML = 60 - new Date().getMinutes();
-        seconds.innerHTML = 60 - new Date().getSeconds();
+        minutes.innerHTML = 0 - new Date().getMinutes();
+        seconds.innerHTML = 0 - new Date().getSeconds();
         millis.innerHTML = 100 - parseInt((new Date().getMilliseconds()) / 10);
     } else {
         document.getElementById('newYear').style.display = 'block';

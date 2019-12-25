@@ -86,7 +86,7 @@ body {
   background: #ff006a;
 }
 
-#time div::last-child span:nth-child(2) {
+#time div:last-child span:nth-child(2) {
   background: #ec0062;
 }
 

@@ -5,7 +5,7 @@ const interval = setInterval(() => {
     const date = new Date();
 
     /* if new year did come */
-    if (date.getDate() == 1 && date.getHours() == 0 && date.getMinutes() == 0 || date.getFullYear() > 2023) {
+    if (date.getDate() == 1 && date.getHours() == 0 && date.getMinutes() == 0 || date.getFullYear() > 2025) {
         clearInterval(interval);
         document.getElementById('newYear').style.display = 'block';
         document.getElementById('wrap').style.display = 'none';
